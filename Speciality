@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int X,Y,Z;
+	    cin>>X>>Y>>Z;
+	    if(X>Y&&X>Z)
+	    std::cout << "Setter" << std::endl;
+	    else if(Y>X&&Y>Z)
+	    std::cout << "Tester" << std::endl;
+	    else
+	    std::cout << "editorialist" << std::endl;
+	}
+	
+
+}
