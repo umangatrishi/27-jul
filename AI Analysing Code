@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int c;
+	cin>>c;
+	if(c>1000)
+	std::cout << "no" << std::endl;
+	else
+	std::cout << "yes" << std::endl;
+
+}
