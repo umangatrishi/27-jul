@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int N,M,K;
+	    cin>>N>>M>>K;
+	    int a=M*K;
+
+if(a>=N)
+std::cout << "Yes" << std::endl;
+else
+cout<<"NO"<<endl;
+}
+
+}
