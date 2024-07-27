@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int A,B,C,D;
+        cin>>A>>B>>C>>D;
+        int X=A-C;
+        int Y=B-D;
+         if(X<Y)
+	    std::cout << "First" << std::endl;
+	    else if(Y<X)
+	    std::cout << "Second" << std::endl;
+	    else
+	    std::cout << "any" << std::endl;
+    }
+}
